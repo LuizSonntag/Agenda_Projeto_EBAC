@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(90deg, #2873ff 0%, #73b0ff 100%);
+}
+
+Header h1,
+h2{
+    text-align: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: center;
+} 
+
+Header img{
+    height: 36px;
+    margin-right: 16px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form input{
+    width: 360px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+button{
+    width: 383px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 120, 212);
+    color: white;
+    font-weight: 850;
+    cursor: pointer;
+}
+
+form button:hover,
+#Feedback button:hover{
+    background-color: rgb(59, 159, 246);
+}
+
+table{
+    margin: auto;
+    padding: 16px;
+    width: 383px;
+    border-bottom: 2px solid #000;
+}
+
+table td{
+    text-align: center;
+}
+
+.container{
+    background-color: aliceblue;
+    width: 550px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 12px;
+    border: solid 2px rgb(49, 119, 241);
+}
